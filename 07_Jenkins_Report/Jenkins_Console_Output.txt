@@ -1,0 +1,253 @@
+Started by user admin
+Running as SYSTEM
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\FSE_260153
+No credentials specified
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/subratasr/FSE_260153.git # timeout=10
+Fetching upstream changes from https://github.com/subratasr/FSE_260153.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress https://github.com/subratasr/FSE_260153.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 68556e6d62bfaa612d290dfb3d112f91c75b268b (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 68556e6d62bfaa612d290dfb3d112f91c75b268b
+Commit message: "Jenkins report"
+ > git.exe rev-list --no-walk 68556e6d62bfaa612d290dfb3d112f91c75b268b # timeout=10
+Path To MSBuild.exe: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe
+Executing the command cmd.exe /C " chcp 1252 & C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe 01_Middle_Tier_Layer\ProjectManager\ProjectManager.sln " && exit %%ERRORLEVEL%% from C:\Program Files (x86)\Jenkins\workspace\FSE_260153
+[FSE_260153] $ cmd.exe /C " chcp 1252 & C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe 01_Middle_Tier_Layer\ProjectManager\ProjectManager.sln " && exit %%ERRORLEVEL%%
+Active code page: 1252
+Microsoft (R) Build Engine version 4.6.1055.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Building the projects in this solution one at a time. To enable parallel build, please add the "/m" switch.
+Build started 31-07-2019 14:57:26.
+Project "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager.sln" on node 1 (default targets).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager.sln" (1) is building "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\ProjectManager.csproj" (2) on node 1 (default targets).
+Project file contains ToolsVersion="15.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+EntityDeployNonEmbeddedResources:
+Skipping target "EntityDeployNonEmbeddedResources" because it has no outputs.
+EntityDeployEmbeddedResources:
+Skipping target "EntityDeployEmbeddedResources" because all output files are up-to-date with respect to the input files.
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3088: Could not read state file "obj\Debug\ProjectManager.csprojResolveAssemblyReference.cache". Unable to find assembly 'Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. [C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\ProjectManager.csproj]
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+CoreCompile:
+Skipping target "CoreCompile" because all output files are up-to-date with respect to the input files.
+_CopyFilesMarkedCopyLocal:
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll" to "bin\EntityFramework.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll" to "bin\EntityFramework.SqlServer.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" to "bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Newtonsoft.Json.11.0.1\lib\net45\Newtonsoft.Json.dll" to "bin\Newtonsoft.Json.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\NLog.4.5.11\lib\net45\NLog.dll" to "bin\NLog.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.AspNet.WebApi.Client.5.2.4\lib\net45\System.Net.Http.Formatting.dll" to "bin\System.Net.Http.Formatting.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.AspNet.WebApi.Core.5.2.4\lib\net45\System.Web.Http.dll" to "bin\System.Web.Http.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.AspNet.WebApi.WebHost.5.2.4\lib\net45\System.Web.Http.WebHost.dll" to "bin\System.Web.Http.WebHost.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.xml" to "bin\EntityFramework.xml".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.xml" to "bin\EntityFramework.SqlServer.xml".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" to "bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\NLog.4.5.11\lib\net45\NLog.xml" to "bin\NLog.xml".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Newtonsoft.Json.11.0.1\lib\net45\Newtonsoft.Json.xml" to "bin\Newtonsoft.Json.xml".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.AspNet.WebApi.Client.5.2.4\lib\net45\System.Net.Http.Formatting.xml" to "bin\System.Net.Http.Formatting.xml".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.AspNet.WebApi.Core.5.2.4\lib\net45\System.Web.Http.xml" to "bin\System.Web.Http.xml".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.AspNet.WebApi.WebHost.5.2.4\lib\net45\System.Web.Http.WebHost.xml" to "bin\System.Web.Http.WebHost.xml".
+CopyFilesToOutputDirectory:
+  ProjectManager -> C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\ProjectManager.dll
+CopyRoslynCompilerFilesToOutputDirectory:
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\csc.exe" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\csc.exe".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\csc.exe.config" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\csc.exe.config".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\csc.rsp" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\csc.rsp".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\csi.exe" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\csi.exe".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\csi.exe.config" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\csi.exe.config".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\csi.rsp" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\csi.rsp".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\Microsoft.Build.Tasks.CodeAnalysis.dll" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\Microsoft.CodeAnalysis.CSharp.dll" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\Microsoft.CodeAnalysis.CSharp.Scripting.dll" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\Microsoft.CodeAnalysis.dll" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\Microsoft.CodeAnalysis.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\Microsoft.CodeAnalysis.Scripting.dll" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\Microsoft.CodeAnalysis.VisualBasic.dll" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\Microsoft.CSharp.Core.targets" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\Microsoft.CSharp.Core.targets".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\Microsoft.DiaSymReader.Native.amd64.dll" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\Microsoft.DiaSymReader.Native.x86.dll" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\Microsoft.Managed.Core.targets" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\Microsoft.Managed.Core.targets".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\Microsoft.VisualBasic.Core.targets" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\Microsoft.VisualBasic.Core.targets".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\System.AppContext.dll" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\System.AppContext.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\System.Collections.Immutable.dll" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\System.Collections.Immutable.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\System.Console.dll" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\System.Console.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\System.Diagnostics.FileVersionInfo.dll" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\System.Diagnostics.FileVersionInfo.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\System.Diagnostics.StackTrace.dll" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\System.Diagnostics.StackTrace.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\System.IO.Compression.dll" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\System.IO.Compression.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\System.IO.FileSystem.dll" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\System.IO.FileSystem.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\System.IO.FileSystem.Primitives.dll" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\System.IO.FileSystem.Primitives.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\System.IO.Pipes.AccessControl.dll" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\System.IO.Pipes.AccessControl.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\System.IO.Pipes.dll" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\System.IO.Pipes.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\System.Reflection.Metadata.dll" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\System.Reflection.Metadata.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\System.Security.AccessControl.dll" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\System.Security.AccessControl.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\System.Security.Claims.dll" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\System.Security.Claims.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\System.Security.Cryptography.Algorithms.dll" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\System.Security.Cryptography.Algorithms.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\System.Security.Cryptography.Encoding.dll" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\System.Security.Cryptography.Encoding.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\System.Security.Cryptography.Primitives.dll" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\System.Security.Cryptography.Primitives.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\System.Security.Cryptography.X509Certificates.dll" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\System.Security.Cryptography.X509Certificates.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\System.Security.Principal.Windows.dll" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\System.Security.Principal.Windows.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\System.Text.Encoding.CodePages.dll" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\System.Text.Encoding.CodePages.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\System.ValueTuple.dll" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\System.ValueTuple.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\System.Xml.ReaderWriter.dll" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\System.Xml.ReaderWriter.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\System.Xml.XmlDocument.dll" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\System.Xml.XmlDocument.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\System.Xml.XPath.dll" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\System.Xml.XPath.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\System.Xml.XPath.XDocument.dll" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\System.Xml.XPath.XDocument.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\vbc.exe" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\vbc.exe".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\vbc.exe.config" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\vbc.exe.config".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\vbc.rsp" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\vbc.rsp".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\VBCSCompiler.exe" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\VBCSCompiler.exe".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\..\..\tools\roslynlatest\VBCSCompiler.exe.config" to "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\roslyn\VBCSCompiler.exe.config".
+Done Building Project "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\ProjectManager.csproj" (default targets).
+Project "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager.sln" (1) is building "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager.Tests\ProjectManager.Tests.csproj" (3) on node 1 (default targets).
+Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+Project "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager.Tests\ProjectManager.Tests.csproj" (3) is building "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\ProjectManager.csproj" (2:3) on node 1 (GetNativeManifest target(s)).
+Project file contains ToolsVersion="15.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+Done Building Project "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\ProjectManager.csproj" (GetNativeManifest target(s)).
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3088: Could not read state file "obj\Debug\ProjectManager.Tests.csprojResolveAssemblyReference.cache". Unable to find assembly 'Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. [C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager.Tests\ProjectManager.Tests.csproj]
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+CoreCompile:
+Skipping target "CoreCompile" because all output files are up-to-date with respect to the input files.
+_CopyFilesMarkedCopyLocal:
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll" to "bin\Debug\EntityFramework.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll" to "bin\Debug\EntityFramework.SqlServer.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\MSTest.TestFramework.1.2.0\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.dll" to "bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\MSTest.TestFramework.1.2.0\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll" to "bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\NLog.4.5.11\lib\net45\NLog.dll" to "bin\Debug\NLog.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\NUnit.3.11.0\lib\net45\nunit.framework.dll" to "bin\Debug\nunit.framework.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\ProjectManager.dll" to "bin\Debug\ProjectManager.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.AspNet.WebApi.Core.5.2.4\lib\net45\System.Web.Http.dll" to "bin\Debug\System.Web.Http.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\System.Net.Http.Formatting.dll" to "bin\Debug\System.Net.Http.Formatting.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\Newtonsoft.Json.dll" to "bin\Debug\Newtonsoft.Json.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\System.Web.Http.WebHost.dll" to "bin\Debug\System.Web.Http.WebHost.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\ProjectManager.pdb" to "bin\Debug\ProjectManager.pdb".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.xml" to "bin\Debug\EntityFramework.xml".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.xml" to "bin\Debug\EntityFramework.SqlServer.xml".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\MSTest.TestFramework.1.2.0\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.xml" to "bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\MSTest.TestFramework.1.2.0\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" to "bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\NLog.4.5.11\lib\net45\NLog.xml" to "bin\Debug\NLog.xml".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\NUnit.3.11.0\lib\net45\nunit.framework.pdb" to "bin\Debug\nunit.framework.pdb".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\NUnit.3.11.0\lib\net45\nunit.framework.xml" to "bin\Debug\nunit.framework.xml".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.AspNet.WebApi.Core.5.2.4\lib\net45\System.Web.Http.xml" to "bin\Debug\System.Web.Http.xml".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\System.Net.Http.Formatting.xml" to "bin\Debug\System.Net.Http.Formatting.xml".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\Newtonsoft.Json.xml" to "bin\Debug\Newtonsoft.Json.xml".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\System.Web.Http.WebHost.xml" to "bin\Debug\System.Web.Http.WebHost.xml".
+_CopyOutOfDateSourceItemsToOutputDirectory:
+Skipping target "_CopyOutOfDateSourceItemsToOutputDirectory" because all output files are up-to-date with respect to the input files.
+_CopyAppConfigFile:
+Skipping target "_CopyAppConfigFile" because all output files are up-to-date with respect to the input files.
+CopyFilesToOutputDirectory:
+  Copying file from "obj\Debug\ProjectManager.Tests.dll" to "bin\Debug\ProjectManager.Tests.dll".
+  ProjectManager.Tests -> C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager.Tests\bin\Debug\ProjectManager.Tests.dll
+  Copying file from "obj\Debug\ProjectManager.Tests.pdb" to "bin\Debug\ProjectManager.Tests.pdb".
+Done Building Project "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager.Tests\ProjectManager.Tests.csproj" (default targets).
+Project "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager.sln" (1) is building "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\PerformanceTests\PerformanceTests.csproj" (4) on node 1 (default targets).
+Project file contains ToolsVersion="15.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3088: Could not read state file "obj\Debug\PerformanceTests.csprojResolveAssemblyReference.cache". Unable to find assembly 'Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. [C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\PerformanceTests\PerformanceTests.csproj]
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3247: Found conflicts between different versions of the same dependent assembly. [C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\PerformanceTests\PerformanceTests.csproj]
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+CoreCompile:
+Skipping target "CoreCompile" because all output files are up-to-date with respect to the input files.
+_CopyFilesMarkedCopyLocal:
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll" to "bin\Debug\EntityFramework.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll" to "bin\Debug\EntityFramework.SqlServer.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\NBench.1.2.2\lib\net452\NBench.dll" to "bin\Debug\NBench.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll" to "bin\Debug\Newtonsoft.Json.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\NUnit.3.11.0\lib\net45\nunit.framework.dll" to "bin\Debug\nunit.framework.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\ProjectManager.dll" to "bin\Debug\ProjectManager.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.AspNet.WebApi.Client.5.2.4\lib\net45\System.Net.Http.Formatting.dll" to "bin\Debug\System.Net.Http.Formatting.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.AspNet.WebApi.Core.5.2.4\lib\net45\System.Web.Http.dll" to "bin\Debug\System.Web.Http.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\NLog.dll" to "bin\Debug\NLog.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\System.Web.Http.WebHost.dll" to "bin\Debug\System.Web.Http.WebHost.dll".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\ProjectManager.pdb" to "bin\Debug\ProjectManager.pdb".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.xml" to "bin\Debug\EntityFramework.xml".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.xml" to "bin\Debug\EntityFramework.SqlServer.xml".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.xml" to "bin\Debug\Newtonsoft.Json.xml".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\NUnit.3.11.0\lib\net45\nunit.framework.pdb" to "bin\Debug\nunit.framework.pdb".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\NUnit.3.11.0\lib\net45\nunit.framework.xml" to "bin\Debug\nunit.framework.xml".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.AspNet.WebApi.Client.5.2.4\lib\net45\System.Net.Http.Formatting.xml" to "bin\Debug\System.Net.Http.Formatting.xml".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\Microsoft.AspNet.WebApi.Core.5.2.4\lib\net45\System.Web.Http.xml" to "bin\Debug\System.Web.Http.xml".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\NLog.xml" to "bin\Debug\NLog.xml".
+  Copying file from "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\System.Web.Http.WebHost.xml" to "bin\Debug\System.Web.Http.WebHost.xml".
+_CopyOutOfDateSourceItemsToOutputDirectory:
+Skipping target "_CopyOutOfDateSourceItemsToOutputDirectory" because all output files are up-to-date with respect to the input files.
+_CopyAppConfigFile:
+Skipping target "_CopyAppConfigFile" because all output files are up-to-date with respect to the input files.
+CopyFilesToOutputDirectory:
+  Copying file from "obj\Debug\PerformanceTests.dll" to "bin\Debug\PerformanceTests.dll".
+  PerformanceTests -> C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\PerformanceTests\bin\Debug\PerformanceTests.dll
+  Copying file from "obj\Debug\PerformanceTests.pdb" to "bin\Debug\PerformanceTests.pdb".
+Done Building Project "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\PerformanceTests\PerformanceTests.csproj" (default targets).
+Done Building Project "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager.sln" (default targets).
+
+Build succeeded.
+
+"C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager.sln" (default target) (1) ->
+"C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\ProjectManager.csproj" (default target) (2) ->
+(ResolveAssemblyReferences target) -> 
+  C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3088: Could not read state file "obj\Debug\ProjectManager.csprojResolveAssemblyReference.cache". Unable to find assembly 'Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. [C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\ProjectManager.csproj]
+
+
+"C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager.sln" (default target) (1) ->
+"C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager.Tests\ProjectManager.Tests.csproj" (default target) (3) ->
+  C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3088: Could not read state file "obj\Debug\ProjectManager.Tests.csprojResolveAssemblyReference.cache". Unable to find assembly 'Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. [C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager.Tests\ProjectManager.Tests.csproj]
+
+
+"C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager.sln" (default target) (1) ->
+"C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\PerformanceTests\PerformanceTests.csproj" (default target) (4) ->
+  C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3088: Could not read state file "obj\Debug\PerformanceTests.csprojResolveAssemblyReference.cache". Unable to find assembly 'Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. [C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\PerformanceTests\PerformanceTests.csproj]
+  C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3247: Found conflicts between different versions of the same dependent assembly. [C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\PerformanceTests\PerformanceTests.csproj]
+
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.34
+[FSE_260153] $ cmd /c call C:\Windows\TEMP\jenkins5032964061930102183.bat
+
+C:\Program Files (x86)\Jenkins\workspace\FSE_260153>CD "C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\NUnit.ConsoleRunner.3.10.0\tools" 
+
+C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\NUnit.ConsoleRunner.3.10.0\tools>start nunit3-console.exe" 
+
+C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\NUnit.ConsoleRunner.3.10.0\tools>nunit3-console.exe ..\..\..\ProjectManager.Tests\bin\Debug\ProjectManager.Tests.dll --result=nunit-result.xml 
+NUnit Console Runner 3.10.0 (.NET 2.0)
+Copyright (c) 2019 Charlie Poole, Rob Prouse
+31 July 2019 14:57:27
+
+Runtime Environment
+   OS Version: Microsoft Windows NT 10.0.10240.0
+  CLR Version: 4.0.30319.42000
+
+Test Files
+    ..\..\..\ProjectManager.Tests\bin\Debug\ProjectManager.Tests.dll
+
+
+Run Settings
+    DisposeRunners: True
+    WorkDirectory: C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\NUnit.ConsoleRunner.3.10.0\tools
+    ImageRuntimeVersion: 4.0.30319
+    ImageTargetFrameworkName: .NETFramework,Version=v4.6.1
+    ImageRequiresX86: False
+    ImageRequiresDefaultAppDomainAssemblyResolver: False
+    NumberOfTestWorkers: 4
+
+Test Run Summary
+  Overall result: Passed
+  Test Count: 52, Passed: 52, Failed: 0, Warnings: 0, Inconclusive: 0, Skipped: 0
+  Start time: 2019-07-31 09:27:27Z
+    End time: 2019-07-31 09:27:29Z
+    Duration: 2.185 seconds
+
+Results (nunit3) saved as nunit-result.xml
+
+C:\Program Files (x86)\Jenkins\workspace\FSE_260153\01_Middle_Tier_Layer\ProjectManager\packages\NUnit.ConsoleRunner.3.10.0\tools>exit 0 
+Recording NUnit tests results
+Finished: SUCCESS
