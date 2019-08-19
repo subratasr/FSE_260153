@@ -16,7 +16,7 @@ export class BaseService {
         }
     }
     public baseurl(): string {
-        return '';
+        return 'http://localhost:50830/';
     }
 
     protected handleError(error: any) {

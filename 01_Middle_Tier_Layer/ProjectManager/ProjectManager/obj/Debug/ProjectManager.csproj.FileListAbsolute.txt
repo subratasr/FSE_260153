@@ -276,3 +276,6 @@ C:\Subrata\Subrata\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager
 C:\Subrata\Subrata\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\obj\Debug\ProjectManager.csproj.CopyComplete
 C:\Subrata\Subrata\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\obj\Debug\ProjectManager.dll
 C:\Subrata\Subrata\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\obj\Debug\ProjectManager.pdb
+C:\Subrata\Subrata\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\System.Web.Cors.dll
+C:\Subrata\Subrata\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\System.Web.Http.Cors.dll
+C:\Subrata\Subrata\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\System.Web.Http.Cors.xml

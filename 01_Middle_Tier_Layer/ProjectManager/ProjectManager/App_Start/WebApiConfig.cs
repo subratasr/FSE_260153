@@ -5,6 +5,7 @@ using System.Linq;
 using System.Net.Http.Formatting;
 using System.Web.Http;
 using ProjectManager.ActionFilters;
+using System.Web.Http.Cors;
 
 namespace ProjectManager
 {
@@ -12,6 +13,10 @@ namespace ProjectManager
     {
         public static void Register(HttpConfiguration config)
         {
+            string origin = "http://localhost:4200/";
+            EnableCorsAttribute cors = new EnableCorsAttribute("*", "*", "GET,POST");
+
+            config.EnableCors(cors);
             config.MapHttpAttributeRoutes();
 
             config.IncludeErrorDetailPolicy = IncludeErrorDetailPolicy.Never;
