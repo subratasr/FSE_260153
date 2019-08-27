@@ -271,7 +271,6 @@ C:\Subrata\Subrata\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager
 C:\Subrata\Subrata\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\System.Net.Http.Formatting.xml
 C:\Subrata\Subrata\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\System.Web.Http.xml
 C:\Subrata\Subrata\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\bin\System.Web.Http.WebHost.xml
-C:\Subrata\Subrata\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\obj\Debug\ProjectManager.csprojAssemblyReference.cache
 C:\Subrata\Subrata\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\obj\Debug\ProjectManager.csproj.CoreCompileInputs.cache
 C:\Subrata\Subrata\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\obj\Debug\ProjectManager.csproj.CopyComplete
 C:\Subrata\Subrata\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager\obj\Debug\ProjectManager.dll

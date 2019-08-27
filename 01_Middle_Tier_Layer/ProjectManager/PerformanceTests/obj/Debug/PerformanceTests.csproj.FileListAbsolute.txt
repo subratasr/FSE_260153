@@ -118,3 +118,5 @@ C:\Subrata\Subrata\FSE_260153\01_Middle_Tier_Layer\ProjectManager\PerformanceTes
 C:\Subrata\Subrata\FSE_260153\01_Middle_Tier_Layer\ProjectManager\PerformanceTests\obj\Debug\PerformanceTests.csproj.CopyComplete
 C:\Subrata\Subrata\FSE_260153\01_Middle_Tier_Layer\ProjectManager\PerformanceTests\obj\Debug\PerformanceTests.dll
 C:\Subrata\Subrata\FSE_260153\01_Middle_Tier_Layer\ProjectManager\PerformanceTests\obj\Debug\PerformanceTests.pdb
+C:\Subrata\Subrata\FSE_260153\01_Middle_Tier_Layer\ProjectManager\PerformanceTests\bin\Debug\System.Web.Http.Cors.dll
+C:\Subrata\Subrata\FSE_260153\01_Middle_Tier_Layer\ProjectManager\PerformanceTests\bin\Debug\System.Web.Http.Cors.xml

@@ -132,3 +132,5 @@ C:\Subrata\Subrata\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager
 C:\Subrata\Subrata\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager.Tests\obj\Debug\ProjectManager.Tests.csproj.CopyComplete
 C:\Subrata\Subrata\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager.Tests\obj\Debug\ProjectManager.Tests.dll
 C:\Subrata\Subrata\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager.Tests\obj\Debug\ProjectManager.Tests.pdb
+C:\Subrata\Subrata\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager.Tests\bin\Debug\System.Web.Http.Cors.dll
+C:\Subrata\Subrata\FSE_260153\01_Middle_Tier_Layer\ProjectManager\ProjectManager.Tests\bin\Debug\System.Web.Http.Cors.xml
